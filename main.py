@@ -9,7 +9,7 @@ model = joblib.load("model.pkl")
 sentiment_labels = {'P': 'Positive', 'N': 'Negative', 'O': 'Neutral'}
 
 # Create Streamlit app
-st.title("Sentiment Analysis")
+st.title("PragyanAI - MCP - Case Study - Sentiment Analysis")
 
 # Input text area
 user_input = st.text_area("Enter your text here:")
